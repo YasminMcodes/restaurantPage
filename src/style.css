@@ -1,0 +1,88 @@
+body {
+    background-image: url('./images/body_bg_img.jpg');
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#content {
+    background-color: rgba(255, 228, 196, 0.6);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    height: 100%;
+    width: 40vw;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background-color: rgba(255, 228, 196, 0.6);
+    display: flex;
+    justify-content: center;
+
+}
+
+.food-item {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(232, 208, 183, 0.6);
+
+}
+
+.food-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(200, 180, 150);
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: rgb(180, 160, 130);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.welcome,
+.description,
+.time,
+.location {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(232, 208, 183, 0.6);
+
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
